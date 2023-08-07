@@ -17,4 +17,12 @@ public class ExampleController {
                 HttpResp.ofMsg("hello %s".formatted(name))
         );
     }
+
+    @GetMapping("/sleep1")
+    public ResponseEntity<HttpResp<String>> sleep1() throws InterruptedException {
+        Thread.sleep(1000);
+        return ResponseEntity.ok(
+                HttpResp.ofMsg("ok")
+        );
+    }
 }
