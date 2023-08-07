@@ -13,7 +13,7 @@ Spring Boot 示例，一些功能模块自我实践和验证
 
 ## xxl job
 
-**docker 本地部署**
+**xxl-job-admin docker 本地部署(含 Mysql & phpmyadmin)**
 
 ```shell
 # mysql docker 安装
@@ -41,6 +41,14 @@ docker run -e PARAMS="--spring.datasource.url=jdbc:mysql://mysql:3306/xxl_job?us
 ```
 
 **验证步骤**
-1. 按步骤run xxl-job-admin docker
-2. 在后台「执行器管理」下新增执行器，和 `application.properties` 保持一致
-3. 在后台「任务管理」下新增 JobHandler，和代码里注册的保持一致
+1. 按步骤 run xxl-job-admin docker
+2. 在后台「执行器管理」下新增执行器，和 `application.properties` app name 保持一致
+3. 在后台「任务管理」下新增 JobHandler，和代码里 @XxlJob 注解注册的 handler 保持一致
+
+## RateLimit
+
+**Redis Docker 部署**
+```shell
+docker pull redis:7.0
+docker run --name redis -p 6379:6379 -d redis:7.0
+```
