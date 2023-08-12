@@ -1,13 +1,13 @@
-package com.elepha.springbootdemo;
+package com.elepha.examples.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootdemoApplication {
+public class MainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootdemoApplication.class, args);
+		SpringApplication.run(MainApplication.class, args);
 	}
 
 }

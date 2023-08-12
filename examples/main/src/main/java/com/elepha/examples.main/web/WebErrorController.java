@@ -1,4 +1,4 @@
-package com.elepha.springbootdemo.web;
+package com.elepha.examples.main.web;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

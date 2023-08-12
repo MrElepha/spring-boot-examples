@@ -1,6 +1,6 @@
-package com.elepha.springbootdemo.web.controller;
+package com.elepha.examples.main.web.controller;
 
-import com.elepha.springbootdemo.web.model.response.HttpResp;
+import com.elepha.examples.main.web.model.response.HttpResp;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;

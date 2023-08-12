@@ -1,4 +1,4 @@
-package com.elepha.springbootdemo.xxljob;
+package com.elepha.examples.main.xxljob;
 
 import com.xxl.job.core.biz.model.ReturnT;
 import com.xxl.job.core.context.XxlJobHelper;

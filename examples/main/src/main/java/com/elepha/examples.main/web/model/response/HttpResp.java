@@ -1,4 +1,4 @@
-package com.elepha.springbootdemo.web.model.response;
+package com.elepha.examples.main.web.model.response;
 
 import lombok.Getter;
 import lombok.Setter;

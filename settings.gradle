@@ -1,8 +1,3 @@
-pluginManagement {
-	repositories {
-		maven { url 'https://repo.spring.io/milestone' }
-		maven { url 'https://repo.spring.io/snapshot' }
-		gradlePluginPortal()
-	}
-}
-rootProject.name = 'springbootdemo'
+rootProject.name = 'spring-boote-examples'
+includeBuild("libs")
+includeBuild("examples")

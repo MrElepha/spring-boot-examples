@@ -1,10 +1,10 @@
-package com.elepha.springbootdemo;
+package com.elepha.examples.main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootdemoApplicationTests {
+class MainApplicationTests {
 
 	@Test
 	void contextLoads() {
