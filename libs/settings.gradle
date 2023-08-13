@@ -7,3 +7,4 @@ pluginManagement {
 }
 rootProject.name = 'libs'
 include('xxl-job-spring-boot-starter')
+include('ratelimit-spring-boot-starter')
