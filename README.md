@@ -1,6 +1,32 @@
 # spring-boot-examples
 Spring Boot 示例，一些功能模块自我实践和验证
 
+**Struct**
+
+```
+├── README.md
+├── build.gradle
+├── examples Applications demos
+│   ├── build.gradle
+│   ├── lombok.config
+│   ├── main 主 Application
+│   │   ├── build
+│   │   ├── build.gradle
+│   │   └── src
+│   └── settings.gradle
+├── gradle.properties 编译参数
+├── gradlew
+├── gradlew.bat
+├── libs 项目依赖组件
+│   ├── build.gradle
+│   ├── settings.gradle
+│   └── xxl-job-spring-boot-starter xxl-job 配置
+│       ├── build
+│       ├── build.gradle
+│       └── src
+└── settings.gradle
+```
+
 **功能验证**
 
 - [x] xxl job
@@ -8,8 +34,6 @@ Spring Boot 示例，一些功能模块自我实践和验证
 - [ ] elasticsearch
 - [ ] lock 分布式锁
 - [ ] ... ...
-
-
 
 ## xxl job
 
