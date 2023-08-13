@@ -6,3 +6,4 @@ pluginManagement {
     }
 }
 rootProject.name = 'libs'
+include('xxl-job-spring-boot-starter')
